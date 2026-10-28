@@ -1,0 +1,20 @@
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# virtualenvs
+.venv/
+venv/
+env/
+
+# editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# documents a user opens in the reader, and any capture
+*.pdf
+*.mp4
+*.avi
+captures/

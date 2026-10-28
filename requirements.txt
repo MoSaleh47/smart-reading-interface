@@ -1,0 +1,10 @@
+PySide6>=6.5
+opencv-python>=4.8
+mediapipe>=0.10
+numpy>=1.24
+pypdf>=4.0
+SpeechRecognition>=3.10
+# Microphone backend for SpeechRecognition. No wheel on some platforms:
+# Windows  -> pip install pipwin && pipwin install pyaudio
+# Debian   -> sudo apt install portaudio19-dev, then pip install PyAudio
+PyAudio>=0.2.13
